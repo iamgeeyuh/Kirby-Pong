@@ -7,24 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B904650C2CBB09F200CBFC8E /* player1_wins.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B904650B2CBB09EB00CBFC8E /* player1_wins.png */; };
+		B904650D2CBB09F800CBFC8E /* player2_wins.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B904650A2CBB09EB00CBFC8E /* player2_wins.png */; };
+		B904650F2CBB24EE00CBFC8E /* tennis_court.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = B904650E2CBB24E000CBFC8E /* tennis_court.jpg */; };
 		B941C9B22CB6FF8F007AB5A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B941C9B12CB6FF8F007AB5A8 /* main.cpp */; };
+		B941C9C02CB700E7007AB5A8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B941C9BF2CB700E7007AB5A8 /* Cocoa.framework */; };
+		B941C9C22CB700F1007AB5A8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B941C9C12CB700F1007AB5A8 /* OpenGL.framework */; };
+		B941C9C62CB70111007AB5A8 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B941C9C32CB70111007AB5A8 /* SDL2_image.framework */; };
+		B941C9C72CB70111007AB5A8 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B941C9C42CB70111007AB5A8 /* SDL2.framework */; };
+		B941C9C82CB70111007AB5A8 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B941C9C52CB70111007AB5A8 /* SDL2_mixer.framework */; };
+		B941C9D62CB70460007AB5A8 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B941C9D22CB70460007AB5A8 /* ShaderProgram.cpp */; };
+		B941C9D72CB7046E007AB5A8 /* shaders in CopyFiles */ = {isa = PBXBuildFile; fileRef = B941C9D52CB70460007AB5A8 /* shaders */; };
+		B941C9E62CB87787007AB5A8 /* hammer_kirby.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B941C9E52CB87782007AB5A8 /* hammer_kirby.png */; };
+		B941C9EA2CB88739007AB5A8 /* ball_kirby.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B941C9E72CB8869E007AB5A8 /* ball_kirby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B941C9AC2CB6FF8F007AB5A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 6;
 			files = (
+				B941C9D72CB7046E007AB5A8 /* shaders in CopyFiles */,
+				B904650F2CBB24EE00CBFC8E /* tennis_court.jpg in CopyFiles */,
+				B941C9E62CB87787007AB5A8 /* hammer_kirby.png in CopyFiles */,
+				B941C9EA2CB88739007AB5A8 /* ball_kirby.png in CopyFiles */,
+				B904650C2CBB09F200CBFC8E /* player1_wins.png in CopyFiles */,
+				B904650D2CBB09F800CBFC8E /* player2_wins.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B90465072CBAFF1800CBFC8E /* font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font.png; path = ../../../../../../Downloads/font.png; sourceTree = "<group>"; };
+		B904650A2CBB09EB00CBFC8E /* player2_wins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player2_wins.png; sourceTree = "<group>"; };
+		B904650B2CBB09EB00CBFC8E /* player1_wins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player1_wins.png; sourceTree = "<group>"; };
+		B904650E2CBB24E000CBFC8E /* tennis_court.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennis_court.jpg; sourceTree = "<group>"; };
 		B941C9AE2CB6FF8F007AB5A8 /* hw2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw2; sourceTree = BUILT_PRODUCTS_DIR; };
 		B941C9B12CB6FF8F007AB5A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B941C9BF2CB700E7007AB5A8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B941C9C12CB700F1007AB5A8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B941C9C32CB70111007AB5A8 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		B941C9C42CB70111007AB5A8 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		B941C9C52CB70111007AB5A8 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		B941C9D12CB70460007AB5A8 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		B941C9D22CB70460007AB5A8 /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
+		B941C9D32CB70460007AB5A8 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
+		B941C9D42CB70460007AB5A8 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		B941C9D52CB70460007AB5A8 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		B941C9E52CB87782007AB5A8 /* hammer_kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hammer_kirby.png; sourceTree = "<group>"; };
+		B941C9E72CB8869E007AB5A8 /* ball_kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball_kirby.png; path = ../../../../../../Downloads/ball_kirby.png; sourceTree = "<group>"; };
+		B941C9EB2CB8873E007AB5A8 /* ball_kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_kirby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +67,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B941C9C22CB700F1007AB5A8 /* OpenGL.framework in Frameworks */,
+				B941C9C02CB700E7007AB5A8 /* Cocoa.framework in Frameworks */,
+				B941C9C72CB70111007AB5A8 /* SDL2.framework in Frameworks */,
+				B941C9C82CB70111007AB5A8 /* SDL2_mixer.framework in Frameworks */,
+				B941C9C62CB70111007AB5A8 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +83,7 @@
 			children = (
 				B941C9B02CB6FF8F007AB5A8 /* hw2 */,
 				B941C9AF2CB6FF8F007AB5A8 /* Products */,
+				B941C9BE2CB700E7007AB5A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +98,41 @@
 		B941C9B02CB6FF8F007AB5A8 /* hw2 */ = {
 			isa = PBXGroup;
 			children = (
+				B941C9DB2CB85110007AB5A8 /* assets */,
+				B941C9D42CB70460007AB5A8 /* glm */,
+				B941C9D22CB70460007AB5A8 /* ShaderProgram.cpp */,
+				B941C9D32CB70460007AB5A8 /* ShaderProgram.h */,
+				B941C9D52CB70460007AB5A8 /* shaders */,
+				B941C9D12CB70460007AB5A8 /* stb_image.h */,
 				B941C9B12CB6FF8F007AB5A8 /* main.cpp */,
 			);
 			path = hw2;
+			sourceTree = "<group>";
+		};
+		B941C9BE2CB700E7007AB5A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B90465072CBAFF1800CBFC8E /* font.png */,
+				B941C9E72CB8869E007AB5A8 /* ball_kirby.png */,
+				B941C9C32CB70111007AB5A8 /* SDL2_image.framework */,
+				B941C9C52CB70111007AB5A8 /* SDL2_mixer.framework */,
+				B941C9C42CB70111007AB5A8 /* SDL2.framework */,
+				B941C9C12CB700F1007AB5A8 /* OpenGL.framework */,
+				B941C9BF2CB700E7007AB5A8 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B941C9DB2CB85110007AB5A8 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B941C9EB2CB8873E007AB5A8 /* ball_kirby.png */,
+				B904650B2CBB09EB00CBFC8E /* player1_wins.png */,
+				B904650A2CBB09EB00CBFC8E /* player2_wins.png */,
+				B904650E2CBB24E000CBFC8E /* tennis_court.jpg */,
+				B941C9E52CB87782007AB5A8 /* hammer_kirby.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B941C9B22CB6FF8F007AB5A8 /* main.cpp in Sources */,
+				B941C9D62CB70460007AB5A8 /* ShaderProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +319,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL2.framework/Versions/A/Headers,
+					/Library/Frameworks/SDL2_image.framework/Versions/A/Headers,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +335,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/SDL2.framework/Versions/A/Headers,
+					/Library/Frameworks/SDL2_image.framework/Versions/A/Headers,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
